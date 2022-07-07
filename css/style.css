@@ -10,7 +10,7 @@ body{
 }
 .row{
     display: flex;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
 }
 h1{
     font-size: 50px;
@@ -51,4 +51,50 @@ p{
 #about_me .half_width img{
     width:75%;
     text-align: center;
+}
+#recipie .recipie_title{
+    padding-bottom: 20px;
+}
+#recipie .recipie_title p{
+    padding: 0 310px;
+}
+#recipie .row{
+    padding-left: 8%;
+}
+#recipie .half_width{
+    box-shadow: 0px 0px 40px #ddd;
+    padding: 16px;
+    border-radius: 40px;
+    margin-left: 2%; 
+}
+#counter_up{
+    box-shadow: 0px 0px 40px #ddd;
+    margin:auto;
+    width: 80%;
+    margin-bottom: 100px;
+    border-radius: 40px;
+}
+#counter_up.row{
+    padding-bottom: 0px;
+}
+#counter_up .counter_item{
+    margin: auto;
+}
+#counter_up .counter_item h1{
+    padding: 0px  ;
+}
+#counter_up .counter_item p{
+    padding-bottom: 30px;
+    line-height: 0px;
+}
+footer{
+    text-align: center;
+    background-color: #0B0D17;
+    padding: 30px;
+}
+footer h2 span{
+    color:orange
+}
+footer p{
+    color:#fff;
 }
